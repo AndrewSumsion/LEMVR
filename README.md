@@ -23,7 +23,7 @@ To better understand how LEMVR works, here is a high level diagram of what happe
 # Showcase
 Here is a showcase of a (very simple) Quest application running on the LEMVR stack with a simulated headset:
 
-PUT VIDEO HERE
+https://user-images.githubusercontent.com/23425724/171983737-5c88a66c-2086-4719-8e72-d717bb6d79aa.mp4
 
 Note: as this project is incomplete, this is not using every component described above. This demo was created on an actual Android device by using a LEMVR client that was modified to display its images on screen, and a LEMVR server that doesn't (yet) interface with OpenXR and just provides oscillating positions.
 
