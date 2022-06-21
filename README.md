@@ -21,11 +21,13 @@ To better understand how LEMVR works, here is a high level diagram of what happe
 ![Frame Loop](docs/frame-loop.png)
 
 ## Showcase
-Here is a showcase of a (very simple) Quest application running on the LEMVR stack with a simulated headset:
+Here is a showcase of a (very simple) Quest application running on the LEMVR stack being controlled by an Oculus Rift S:
 
-https://user-images.githubusercontent.com/23425724/171983737-5c88a66c-2086-4719-8e72-d717bb6d79aa.mp4
+https://user-images.githubusercontent.com/23425724/174725312-88600d56-9e25-48ec-bc81-b1de284d1b9e.mp4
 
-Note: as this project is incomplete, this is not using every component described above. This demo was created on an actual Android device by using a LEMVR client that was modified to display its images on screen, and a LEMVR server that doesn't (yet) interface with OpenXR and just provides oscillating positions.
+Note: as this project is incomplete, this is not using every component described above. This demo was created on an actual Android device rather than a virtual machine. The LEMVR client and server are fully functional, but the GL Transport is not yet implemented, so the client has been modified to display submitted textures on screen and the Rift S displayed nothing.
+
+The application used in this demo was the [Godot Oculus Quest Toolkit](https://github.com/NeoSpark314/godot_oculus_quest_toolkit).
 
 ## See Also
 - [lemvr_protocol.md](lemvr_protocol.md) - Protocol used between LEMVR Client and LEMVR Server
